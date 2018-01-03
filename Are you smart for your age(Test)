@@ -1,0 +1,345 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+
+    // Introduction
+
+
+ cout << "    Have you wondered how smart are you for your age?" << endl;
+ cout << "    If yes, this software will let you know!" << endl;
+ cout << "    All you have to do is to answer 15 questions." << endl;
+ cout << "    (Every correct answer gets 5 marks.)" << endl<<endl;
+
+
+ // first question
+
+ cout << "    Ready? The first question:" << endl;
+ cout << "    What is the largest country?" << endl;
+ cout << "    (1) Canada, (2) Russia , (3) China, (4) India." << endl;
+ cout << "    (Answer with only one number, e.g. 1 )" << endl;
+ cout <<"    "; cin >> a ;
+ if (a==2) {
+    cout << "    You are right!" << endl ;
+    b= 5;
+    cout << endl << "    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (2) Russia." << endl;
+    b= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // second question
+
+  cout <<endl<< "    Let's get to the second question!" << endl;
+  cout << "    Second question:" << endl;
+  cout << "    What is the closest planet to the Sun?" << endl;
+  cout << "    (1) Mars, (2) Jupiter, (3) Earth, (4) Mercury." << endl;
+  cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==4) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (4) Mercury." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // third question
+
+ cout <<endl<< "    Now how about some history?" << endl;
+ cout << "    Third question:" << endl;
+ cout << "    Who dies first?" << endl;
+ cout << "(1) Charles Dickens, (2)  Adolf Hitler, (3) Charles Darwin, (4) Queen Victoria."  << endl;
+ cout << "    (Answer with only one number, e.g. 1 )" << endl;
+ cout <<"    "; cin >> a ;
+   if (a==1) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl << "    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "Sorry, you are wrong. The correct answer is (1) Charles Dickens." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // fourth question
+
+ cout << endl << "    Time for the fourth question!" << endl;
+ cout << "    Fourth question:"<< endl;
+ cout << "    What's the square root of 169 ?" << endl;
+ cout << "(1) 12, (2) 15, (3) 13, (4) 25." << endl;
+  cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==3) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl << "    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (3) 13." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // fifth question
+
+ cout << endl <<"    Fifth question:" <<endl;
+ cout << "    How many sides does a cube have?" << endl;
+ cout << " (1) 10, (2) 6, (3) 8, (4) Depends on the size of the cube." << endl;
+  cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==2) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (2) 6." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+// sixth question
+
+cout << endl << "    Sixth question:" << endl;
+cout << "     Why is the sky blue?" << endl;
+cout << "    (1)Because it reflects off the ocean, \n    (2) Because of the North Pole, \n    (3) Because of Earth's atmosphere." << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==3) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is\n    (3)  Because of Earth's atmosphere." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // seventh question
+
+cout << endl << "    Seventh question:" << endl;
+cout << "     What is the capital of Bulgaria?" << endl;
+cout << "    (1)Rome, (2) Bucharest, (3) Sofia, (4) Bratislava" << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==3) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (3)  Sofia." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // eighth question
+
+cout << endl << "    Eighth question:" << endl;
+cout << "     what is the largest animal?" << endl;
+cout << "    (1)Bear , (2) The blue whale, (3) Tiger , (4) Elephant" << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==2) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (2) The blue whale." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // ninth question
+
+cout << endl << "    Ninth question:" << endl;
+cout << "     Who wrote <<The Catcher in the Rye>>?" << endl;
+cout << "    (1)J.D. Salinger, (2) E.M. Hemingway,\n    (3) F.S. Fitzgerald, (4) J.A.  Steinbeck" << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==1) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (1)J.D. Salinger." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // tenth question
+
+cout << endl << "    Tenth question:" << endl;
+cout << "     Which vitamin is abundant in citrus fruits?" << endl;
+cout << "    (1)Vitamin A, (2) Vitamin B, (3) Vitamin C, (4) Vitamin D." << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==3) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (3) Vitamin C." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+// eleventh question
+
+cout << endl << "    Eleventh question:" << endl;
+cout << "     Who defined the law of gravitation?" << endl;
+cout << "    (1) Newton, (2) Archimedes, (3) Galileo, (4) Einstein" << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==1) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (1) Newton." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // twelfth question
+
+cout << endl << "    Twelfth question:" << endl;
+cout << "     Where is bullfighting the national game?" << endl;
+cout << "    (1)  Italy, (2) France, (3) Spain, (4) Poland." << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==3) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (3) Spain." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // thirteenth question
+
+cout << endl << "    Thirteenth question:" << endl;
+cout << "     Who composed The Four Seasons?" << endl;
+cout << "    (1) Mozart, (2) Bach, (3) Beethoven, (4) Vivaldi." << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==4) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (4) Vivaldi." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // fourteenth question
+
+cout << endl << "    Fourteenth question:" << endl;
+cout << "     What is the name of the device\n     that is used to see objects on the surface from a submarine?" << endl;
+cout << "    (1) Periscope, (2) Telescope, (3) Spectroscope, (4) Kaleidoscope." << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==1) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (1) Periscope." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+
+ // Fifteenth question
+
+cout << endl << "    Fifteenth question(Last one!):" << endl;
+cout << "     The headquarters of the UNESCO is at:" << endl;
+cout << "    (1) New York, (2) Paris, (3) Rome, (4) London." << endl;
+cout << "    (Answer with only one number, e.g. 1 )" << endl;
+  cout <<"    "; cin >> a ;
+   if (a==2) {
+    cout << "    You are right!" << endl ;
+    b+= 5;
+    cout << endl <<"    Your marks:" << b << endl ;
+ }
+ else {
+    cout << "    Sorry, you are wrong. The correct answer is (2) Paris." << endl;
+    b+= 0;
+    cout << endl << "    Your marks:" << b << endl;
+ }
+
+ // result time!
+
+int c,d;
+cout << endl << "    Now, enter your age to get the results!" << endl << endl ;
+cout << "    " ; cin >> c ;
+if (c<10) {
+    d = (b/10)+6 ;
+}
+if (c>18) {
+   d = (b/18)+6 ;
+}
+else {
+    d = (b/c)+6 ;
+}
+if (d<7) {
+    cout << "    You should read more books and learn harder to\n    improve your general knowledge." << endl;
+}
+else {
+    cout << "    You are intelligent enough for your age!" << endl << endl ;
+    cout << "    **********This is a good result!********" << endl ;
+}
+if (d>10) {
+    cout << "    You are extremely smart! You have a great general knowledge." << endl << endl ;
+    cout << "    ************************************************************" << endl ;
+    cout << "    *                                                          *" << endl ;
+    cout << "    *                  CONGRATULATIONS!                        *" << endl ;
+    cout << "    *                                                          *" << endl ;
+    cout << "    ************************************************************" << endl ;
+}
+
+
+
+// quit program
+
+ int z;
+ cout << "Press any number and then press Enter to quit.";
+ cin >>z;
+ cout << z;
+
+ return 0;
+}
